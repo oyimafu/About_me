@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+html{
+    font-size: 15px;
+background: url("./backgroundd.jpg")
+}
+h1{
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    
+}
+.p1{
+    font-size: 20px;
+}
+.p2{
+    text-align: right;
+}
+
+body{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+
+    max-width: 1100px;
+    margin:0 auto;
+    padding: 0 3rem;
+    margin-top: 4rem;
+    text-align: center;
+
+}
+}
