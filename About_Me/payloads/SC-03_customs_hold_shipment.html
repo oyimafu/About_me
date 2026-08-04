@@ -1,0 +1,53 @@
+<!--
+  PAYLOAD: SC-03 | Customs Hold Shipment | Medium | Malicious Link
+  FROM:    logistics.notify@aramex-tracking.com
+  SUBJECT: URGENT: Customs Hold on Mubadala Energy Shipment — BL# ME-2026-4471
+  REPLY-TO: support@aramex-tracking.com
+  TARGET:  Supply Chain Logistics, Warehouse Coordinators
+  RED FLAGS: Fake Aramex domain, AED 4,500/day fees, external portal link
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width,initial-scale=1.0" /></head>
+<body style="margin:0;padding:0;background:#ffffff;font-family:Calibri,Segoe UI,Arial,sans-serif;font-size:15px;color:#333333;">
+<img src="{{.TrackingURL}}" alt="" width="1" height="1" style="display:none;" />
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0">
+<tr><td style="padding:32px 40px;max-width:680px;">
+
+<p style="margin:0 0 20px;">Dear Mubadala Energy Logistics Team,</p>
+
+<p style="margin:0 0 16px;line-height:1.6;">
+We are writing to inform you that shipment BL# ME-2026-4471 containing drilling equipment and safety components destined for your Abu Dhabi facility has been placed on customs hold at Jebel Ali Port.
+</p>
+
+<p style="margin:0 0 16px;line-height:1.6;">
+The hold is due to incomplete CITES documentation for one of the chemical compounds in the shipment manifest. Without immediate action, standard port storage fees of AED 4,500/day will apply, and the shipment may be returned to the origin port within 5 business days.
+</p>
+
+<p style="margin:0 0 6px;line-height:1.6;">Tracking Reference : <strong>ME-2026-4471</strong></p>
+<p style="margin:0 0 6px;line-height:1.6;">Port of Entry : Jebel Ali, Dubai</p>
+<p style="margin:0 0 6px;line-height:1.6;">Hold Reason : Incomplete CITES Documentation</p>
+<p style="margin:0 0 16px;line-height:1.6;">Est. Release (upon clearance) : 2 business days</p>
+
+<p style="margin:0 0 16px;line-height:1.6;">
+Please review the shipment documentation and submit the required clearance forms via our portal :
+</p>
+
+<p style="margin:0 0 20px;">
+<a href="{{.URL}}" style="color:#7B1FA2;text-decoration:none;font-size:15px;">Click here to view shipment status and submit documents</a>
+</p>
+
+<p style="margin:0 0 16px;line-height:1.6;font-size:13px;color:#666;">
+For urgent enquiries, contact our UAE Customs Liaison desk at +971 4 281 5151.
+</p>
+
+<p style="margin:24px 0 0;line-height:1.6;">
+Regards,<br/>
+UAE Customs Operations Team<br/>
+Aramex Logistics
+</p>
+
+</td></tr>
+</table>
+</body>
+</html>

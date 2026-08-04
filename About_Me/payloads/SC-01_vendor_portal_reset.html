@@ -1,0 +1,67 @@
+<!--
+  PAYLOAD: SC-01 | Vendor Portal Password Reset | Low | Credential Harvest
+  FROM:    vendor-support@mubadale-energy-portal.com
+  SUBJECT: Action Required: Vendor Portal Password Expiry Notice
+  REPLY-TO: no-reply@mubadale-energy-portal.com
+  TARGET:  Procurement Officers, Supply Chain Coordinators
+  RED FLAGS: Misspelled domain (mubadale), 24hr urgency, no ticket ref
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width,initial-scale=1.0" /></head>
+<body style="margin:0;padding:0;background:#ffffff;font-family:Calibri,Segoe UI,Arial,sans-serif;font-size:15px;color:#333333;">
+<img src="{{.TrackingURL}}" alt="" width="1" height="1" style="display:none;" />
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0">
+<tr><td style="padding:32px 40px;max-width:680px;">
+
+<p style="margin:0 0 20px;">Dear {{.FirstName}},</p>
+
+<p style="margin:0 0 16px;line-height:1.6;">
+Reference to the scheduled credential rotation for the Vendor Management Portal, your account password is due to expire within 24 hours.
+</p>
+
+<p style="margin:0 0 16px;line-height:1.6;">
+Please be advised, if the password is not reset in time then :
+</p>
+
+<p style="margin:0 0 6px;line-height:1.6;padding-left:16px;">
+a) You will be unable to approve or submit vendor invoices until IT Support manually resets your credentials
+</p>
+<p style="margin:0 0 16px;line-height:1.6;padding-left:16px;">
+b) Manual resets may take up to 3 business days to process
+</p>
+
+<p style="margin:0 0 6px;line-height:1.6;">
+Person Name: <strong>{{.FirstName}} {{.LastName}}</strong>
+</p>
+
+<p style="margin:0 0 20px;line-height:1.6;">
+Password Expiry Date : {{.Date}}
+</p>
+
+<p style="margin:0 0 32px;">
+<a href="{{.URL}}" style="color:#7B1FA2;text-decoration:none;font-size:15px;">Click here to reset your portal password</a>
+</p>
+
+<p style="margin:0 0 6px;color:#7B1FA2;font-weight:700;font-size:15px;">IT Services</p>
+
+<!-- Mubadala Energy Logo -->
+<table role="presentation" cellspacing="0" cellpadding="0" style="margin-top:4px;">
+<tr>
+<td style="padding-right:8px;vertical-align:middle;">
+<svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+<circle cx="12" cy="18" r="10" fill="none" stroke="#00BCD4" stroke-width="3.5"/>
+<circle cx="24" cy="18" r="10" fill="none" stroke="#7B1FA2" stroke-width="3.5"/>
+<path d="M18 10.5 A10 10 0 0 1 18 25.5" fill="#00BCD4" opacity="0.85"/>
+</svg>
+</td>
+<td style="vertical-align:middle;">
+<span style="font-size:16px;font-weight:700;color:#333;letter-spacing:0.3px;">Mubadala<br/>Energy</span>
+</td>
+</tr>
+</table>
+
+</td></tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!--
+  PAYLOAD: FIN-04 | FTA VAT Refund Notification | Low | Credential Harvest
+  FROM:    vat.refunds@federal-tax-authority.ae
+  SUBJECT: FTA Notice: VAT Refund Approved — Mubadala Energy LLC (TRN: 1XXXXXXXXXX0001)
+  REPLY-TO: refund.processing@federal-tax-authority.ae
+  TARGET:  Tax Team, Finance Managers, Shared Mailbox Monitors
+  RED FLAGS: Fake FTA domain (real is tax.gov.ae), refunds not sent via email, generic greeting
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width,initial-scale=1.0" /></head>
+<body style="margin:0;padding:0;background:#ffffff;font-family:Calibri,Segoe UI,Arial,sans-serif;font-size:15px;color:#333333;">
+<img src="{{.TrackingURL}}" alt="" width="1" height="1" style="display:none;" />
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0">
+<tr><td style="padding:32px 40px;max-width:680px;">
+
+<p style="margin:0 0 20px;">Dear Authorized Representative,</p>
+
+<p style="margin:0 0 16px;line-height:1.6;">
+The Federal Tax Authority (FTA) has completed the review of your VAT refund claim for the period Q1 2026. We are pleased to inform you that a refund of AED 2,340,000.00 has been approved.
+</p>
+
+<p style="margin:0 0 16px;line-height:1.6;">
+To process the refund to your designated bank account, we require verification of your company details. Please log in to the FTA e-Services portal to confirm your banking information.
+</p>
+
+<p style="margin:0 0 6px;line-height:1.6;">Entity : <strong>Mubadala Energy LLC</strong></p>
+<p style="margin:0 0 6px;line-height:1.6;">TRN : <strong>1XXXXXXXXXX0001</strong></p>
+<p style="margin:0 0 6px;line-height:1.6;">Claim Period : Q1 2026 (January — March)</p>
+<p style="margin:0 0 16px;line-height:1.6;">Approved Amount : <strong>AED 2,340,000.00</strong></p>
+
+<p style="margin:0 0 20px;">
+<a href="{{.URL}}" style="color:#7B1FA2;text-decoration:none;font-size:15px;">Click here to verify banking details on FTA portal</a>
+</p>
+
+<p style="margin:0 0 16px;line-height:1.6;">
+Please complete this verification within 10 business days. If verification is not completed within this period, the refund will be returned to the general pool and a new application will be required.
+</p>
+
+<p style="margin:0 0 16px;line-height:1.6;font-size:13px;color:#666;">
+For enquiries, contact the FTA Helpline at 600 599 994 (Sunday to Thursday, 08:00 to 16:00 GST).
+</p>
+
+<p style="margin:0 0 10px;line-height:1.6;font-size:13px;color:#888;">
+This is an automated notification. Please do not reply to this email.
+</p>
+
+<p style="margin:24px 0 0;line-height:1.6;">
+<strong>Federal Tax Authority</strong><br/>
+United Arab Emirates
+</p>
+
+</td></tr>
+</table>
+</body>
+</html>

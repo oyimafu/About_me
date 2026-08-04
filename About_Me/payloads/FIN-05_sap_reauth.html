@@ -1,0 +1,71 @@
+<!--
+  PAYLOAD: FIN-05 | SAP S/4HANA Re-Authentication | Medium | Credential Harvest (fake SSO)
+  FROM:    it.servicedesk@mubadala-energy-it.com
+  SUBJECT: Scheduled SAP S/4HANA Maintenance — Re-Authentication Required by 06 Aug 2026
+  REPLY-TO: servicedesk@mubadala-energy-it.com
+  TARGET:  All Finance Department Staff
+  RED FLAGS: Lookalike domain, email re-auth not standard IT practice, M365 SSO harvest
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width,initial-scale=1.0" /></head>
+<body style="margin:0;padding:0;background:#ffffff;font-family:Calibri,Segoe UI,Arial,sans-serif;font-size:15px;color:#333333;">
+<img src="{{.TrackingURL}}" alt="" width="1" height="1" style="display:none;" />
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0">
+<tr><td style="padding:32px 40px;max-width:680px;">
+
+<p style="margin:0 0 20px;">Dear Finance Team,</p>
+
+<p style="margin:0 0 16px;line-height:1.6;">
+Reference to the planned SAP S/4HANA upgrade to version 2025 FPS02, all finance module users are required to re-authenticate their accounts before the system maintenance window on Wednesday, 06 August 2026 at 22:00 GST.
+</p>
+
+<p style="margin:0 0 16px;line-height:1.6;">
+This re-authentication is necessary to migrate your user profile, saved reports, custom layouts, and approval workflow delegations to the upgraded environment.
+</p>
+
+<p style="margin:0 0 16px;line-height:1.6;">
+Please be advised, if re-authentication is not completed before the maintenance window then :
+</p>
+
+<p style="margin:0 0 6px;line-height:1.6;padding-left:16px;">
+a) You will need to submit an IT ticket post-upgrade for access restoration
+</p>
+<p style="margin:0 0 16px;line-height:1.6;padding-left:16px;">
+b) Access restoration may take 2 to 3 business days to process
+</p>
+
+<p style="margin:0 0 6px;line-height:1.6;">Maintenance Window : Wednesday, 06 Aug 2026, 22:00 — 06:00 GST</p>
+<p style="margin:0 0 6px;line-height:1.6;">Estimated Downtime : 8 hours</p>
+<p style="margin:0 0 16px;line-height:1.6;">Affected Modules : FI, CO, MM (finance-related), TR</p>
+
+<p style="margin:0 0 16px;line-height:1.6;">
+You will be prompted to sign in with your Microsoft 365 credentials (Single Sign-On).
+</p>
+
+<p style="margin:0 0 32px;">
+<a href="{{.URL}}" style="color:#7B1FA2;text-decoration:none;font-size:15px;">Click here to re-authenticate your SAP account</a>
+</p>
+
+<p style="margin:0 0 6px;color:#7B1FA2;font-weight:700;font-size:15px;">IT Services</p>
+
+<!-- Mubadala Energy Logo -->
+<table role="presentation" cellspacing="0" cellpadding="0" style="margin-top:4px;">
+<tr>
+<td style="padding-right:8px;vertical-align:middle;">
+<svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+<circle cx="12" cy="18" r="10" fill="none" stroke="#00BCD4" stroke-width="3.5"/>
+<circle cx="24" cy="18" r="10" fill="none" stroke="#7B1FA2" stroke-width="3.5"/>
+<path d="M18 10.5 A10 10 0 0 1 18 25.5" fill="#00BCD4" opacity="0.85"/>
+</svg>
+</td>
+<td style="vertical-align:middle;">
+<span style="font-size:16px;font-weight:700;color:#333;letter-spacing:0.3px;">Mubadala<br/>Energy</span>
+</td>
+</tr>
+</table>
+
+</td></tr>
+</table>
+</body>
+</html>
